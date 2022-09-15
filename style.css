@@ -1,0 +1,14 @@
+:root {
+    --buttoncolor: #289BDE;
+    --backgroundcolor: rgba(29, 29, 29, 0.7);
+
+}
+
+.image-titel {
+    background-color: var(--backgroundcolor);   
+  
+}
+
+.img {
+    background-color: var(--backgroundcolor);
+}
