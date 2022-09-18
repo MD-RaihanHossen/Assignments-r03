@@ -8,6 +8,6 @@
     background-color: var(--backgroundcolor);   
   
 }
-.explore-section{
+.explore-section, .background-custom-color{
     background-color: #F4FAFD;
 }
