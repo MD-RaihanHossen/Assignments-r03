@@ -14,7 +14,7 @@
     <!--boostrap css link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    
+
 </head>
 
 <body>
@@ -133,7 +133,7 @@
                             <img class="img-fluid w-70" src="images/course/course-1.png" alt="">
                             <div class=" py-4 px-4">
                                 <h1 class="fs-6 fw-bolder">Fundamental Of UI/UX Design</h1>
-                                <p>Some quick example text to build on the card title
+                                <p class="fw-lighter" class="fw-lighter" >Some quick example text to build on the card title
                                     and make up the bulk of the card.
                                 </p>
                                 <p class="text-info fw-bold">Price : 20$</p>
@@ -146,7 +146,7 @@
                             <img class="img-fluid " src="images/course/course-2.png" alt="">
                             <div class=" py-4 px-4">
                                 <h1 class="fs-6 fw-bolder">Javascript Basic to advanced</h1>
-                                <p>Some quick example text to build on the card title
+                                <p class="fw-lighter" class="fw-lighter" >Some quick example text to build on the card title
                                     and make up the bulk of the card.
                                 </p>
                                 <p class="text-info fw-bold">Price : 20$</p>
@@ -161,7 +161,7 @@
                             <img class="img-fluid w-70" src="images/course/course-3.png" alt="">
                             <div class=" py-4 px-4">
                                 <h1 class="fs-6 fw-bolder">Fullstack Web Development</h1>
-                                <p>Some quick example text to build on the card title
+                                <p class="fw-lighter" class="fw-lighter" >Some quick example text to build on the card title
                                     and make up the bulk of the card.
                                 </p>
                                 <p class="text-info fw-bold">Price : 20$</p>
@@ -174,7 +174,7 @@
                             <img class="img-fluid " src="images/course/course-4.png" alt="">
                             <div class=" py-4 px-4">
                                 <h1 class="fs-6 fw-bolder">Digital Marketing</h1>
-                                <p>Some quick example text to build on the card title
+                                <p class="fw-lighter" class="fw-lighter" >Some quick example text to build on the card title
                                     and make up the bulk of the card.
                                 </p>
                                 <p class="text-info fw-bold">Price : 20$</p>
@@ -189,7 +189,7 @@
                             <img class="img-fluid w-70" src="images/course/course-5.png" alt="">
                             <div class=" py-4 px-4">
                                 <h1 class="fs-6 fw-bolder">Photography Basic Rules</h1>
-                                <p>Some quick example text to build on the card title
+                                <p class="fw-lighter" class="fw-lighter" >Some quick example text to build on the card title
                                     and make up the bulk of the card.
                                 </p>
                                 <p class="text-info fw-bold">Price : 20$</p>
@@ -202,7 +202,7 @@
                             <img class="img-fluid " src="images/course/course-6.png" alt="">
                             <div class=" py-4 px-4">
                                 <h1 class="fs-6 fw-bolder">Motion Graphics</h1>
-                                <p>Some quick example text to build on the card title
+                                <p class="fw-lighter" >Some quick example text to build on the card title
                                     and make up the bulk of the card.
                                 </p>
                                 <p class="text-info fw-bold">Price : 20$</p>
@@ -224,25 +224,25 @@
                         <div class="p-4 explore-section">
                             <h1>Explore The elearning
                                 Institute</h1>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the
+                            <p class="fw-lighter">There are many variations of passages of Lorem Ipsum available, but the
                                 majority have suffered alteration in some form, by injected humour, or
                                 randomised words which don't look even slightly believable. If you are going
                                 to use a passage of Lorem Ipsum, you need to be sure.
                             </p>
-                            <p>Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
+                            <p class="fw-lighter">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum
                                 generators on the Internet tend to repeat predefined</p>
                             <div class="row">
                                 <div class="col-4 col-lg-4">
                                     <h1 class="fs-1">3.2K+</h1>
-                                    <p class="">Online Course</p>
+                                    <p class="fw-lighter">Online Course</p>
                                 </div>
                                 <div class="col-4 col-lg-4">
                                     <h1 class="fs-1">600+</h1>
-                                    <p class="">Online Course</p>
+                                    <p class="fw-lighter">Online Course</p>
                                 </div>
                                 <div class="col-4 col-lg-4">
                                     <h1 class="fs-1">3.2K+</h1>
-                                    <p class="">Online Course</p>
+                                    <p class="fw-lighter">Online Course</p>
                                 </div>
                             </div>
                             <div class="my-4 ">
@@ -260,11 +260,50 @@
                 class=" bg-info h-60 p-4 d-flex flex-column flex-lg-row justify-content-between align-items-center rounded">
                 <div class="text-light w-auto  p-5">
                     <h1>Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the
+                    <p class="fw-lighter" >It is a long established fact that a reader will be distracted by the
                         readable content <br> of a page when looking at its layout.</p>
                 </div>
                 <div class=" fw-bold fs-4 p-5">
-                    <p class="bg-light text-info py-2 px-4 rounded">Register Now</p>
+                    <button type="button" class="bg-light text-info py-2 px-4 mb-0 rounded border-0 "
+                        data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Register Now
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title fs-1" id="staticBackdropLabel">Welcome Mor learn </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+
+                                    <div class="input-group flex-nowrap">
+                                        <h1 class="fs-4 fw-bold "> Name :</h1> <br>
+                                        <input type="text" class="form-control" placeholder="Username"
+                                            aria-label="Username" aria-describedby="addon-wrapping">
+                                    </div>
+                                    <div class="input-group flex-nowrap my-4">
+                                        <h1 class="fs-4 fw-bold"> Password :</h1> <br>
+                                        <input type="text" class="form-control" placeholder="Username"
+                                            aria-label="Username" aria-describedby="addon-wrapping">
+                                    </div>
+
+                                    <a class="text-decoration-none " href="">
+                                        <h2 class="bg-info px-4 py-2 rounded text-light w-50">Click Here</h2>
+                                    </a>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -272,100 +311,125 @@
         <section class="mb-5">
             <div class="d-flex flex-column  align-items-center justify-content-center ">
                 <h1>Frequently Asked Questions</h1>
-                <p class="text-center my-3">It is a long established fact that a reader will be distracted by the readable <br>
+                <p class="text-center my-2 fw-lighter">It is a long established fact that a reader will be distracted by the
+                    readable <br>
                     content of a page when looking at its layout.</p>
             </div>
         </section>
         <!--our success students section -->
         <section class="container my-5">
             <div class="">
-                <h1>Meet Our Successfull Students   </h1>
-                <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+                <h1>Meet Our Successfull Students </h1>
+                <p class="fw-lighter">It is a long established fact that a reader will be distracted by the <br> readable content of a page
+                    when looking at its layout.</p>
             </div>
-           <div class="d-lg-flex  gap-4">
-            <div class="background-custom-color mb-4">
-                <img class="w-100" src="images/student/student-1.png" alt="">
-                <div class="pb-5 px-2 pt-3 rounded shadow  ">
-                    <h1 class="fs-5 fw-bolder m-0">Awlad Hossain</h1>
-                    <p class="fs-6">UIUX Designer</p>
+            <div class="d-lg-flex  gap-4">
+                <div class="background-custom-color mb-4">
+                    <img class="w-100" src="images/student/student-1.png" alt="">
+                    <div class="pb-5 px-2 pt-3 rounded shadow  ">
+                        <h1 class="fs-5 fw-bolder m-0">Awlad Hossain</h1>
+                        <p class="fs-6 fw-lighter">UIUX Designer</p>
+                    </div>
+                </div>
+                <div class="background-custom-color mb-4">
+                    <img class="w-100" src="images/student/student-2.png" alt="">
+                    <div class="pb-5 px-2 pt-3 rounded shadow  ">
+                        <h1 class="fs-5 fw-bolder m-0">Jannatul Islam</h1>
+                        <p class="fs-6 fw-lighter">Motion Design</p>
+                    </div>
+                </div>
+                <div class="background-custom-color mb-4">
+                    <img class="w-100" src="images/student/student-3.png" alt="">
+                    <div class="pb-5 px-2 pt-3 rounded shadow  ">
+                        <h1 class="fs-5 fw-bolder m-0">Imran Hossain</h1>
+                        <p class="fs-6 fw-lighter">Graphic Designer</p>
+                    </div>
+                </div>
+                <div class="background-custom-color mb-4">
+                    <img class="w-100" src="images/student/student-4.png" alt="">
+                    <div class="pb-5 px-2 pt-3 rounded shadow  ">
+                        <h1 class="fs-5 fw-bolder m-0">Nishi Akter</h1>
+                        <p class="fs-6 fw-lighter">Web Developer</p>
+                    </div>
                 </div>
             </div>
-            <div class="background-custom-color mb-4">
-                <img class="w-100" src="images/student/student-2.png" alt="">
-                <div class="pb-5 px-2 pt-3 rounded shadow  ">
-                    <h1 class="fs-5 fw-bolder m-0">Jannatul Islam</h1>
-                    <p class="fs-6">Motion Design</p>
-                </div>
-            </div>
-            <div class="background-custom-color mb-4">
-                <img class="w-100" src="images/student/student-3.png" alt="">
-                <div class="pb-5 px-2 pt-3 rounded shadow  ">
-                    <h1 class="fs-5 fw-bolder m-0">Imran Hossain</h1>
-                    <p class="fs-6">Graphic Designer</p>
-                </div>
-            </div>
-            <div class="background-custom-color mb-4">
-                <img class="w-100" src="images/student/student-4.png" alt="">
-                <div class="pb-5 px-2 pt-3 rounded shadow  ">
-                    <h1 class="fs-5 fw-bolder m-0">Nishi Akter</h1>
-                    <p class="fs-6">Web Developer</p>
-                </div>
-            </div>
-           </div>
         </section>
         <!--accordion sction start-->
-        <section class="container" >
+        <section class="container">
             <div class="d-flex flex-column  align-items-center justify-content-center w-75 mx-auto">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                            what is between flex and grid?
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                            Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                what is between flex and grid?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                               <span class="fs-4 fw-bolder">Grid is made for two-dimensional layout while Flexbox is for one .</span> <span class="fw-lighter">
+                                This means Flexbox can
+                                work on either row or columns at a time, but Grids can work on both. Flexbox, gives you
+                                more flexibility while working on either element (row or column). HTML markup and CSS
+                                will be easy to manage in this type of scenario.
+                               </span>
+                            </div>
                         </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                            what is between bootstrap and tailwind?
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                         The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have a default theme or built-in UI components. Instead, it comes with predesigned widgets you can use to build your site from scratch
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                what is between bootstrap and tailwind?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                The main difference between TailwindCSS and Bootstrap is that Tailwind CSS is not a UI
+                                kit. Unlike UI kits such as Bootstrap, Bulma, and Foundation, Tailwind CSS doesn't have
+                                a default theme or built-in UI components. Instead, it comes with predesigned widgets
+                                you can use to build your site from scratch
+                            </div>
                         </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            what is the box model ?
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below
-                        </div>
-                      </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            what is simantick tag ?
-                          </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                what is the box model ?
+                            </button>
                         </h2>
-                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                          <div class="accordion-body">
-                            <strong>simantick is</strong> The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages
-                          </div>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                The CSS box model is essentially a box that wraps around every HTML element. It consists
+                                of: margins, borders, padding, and the actual content. The image below
+                            </div>
                         </div>
-                      </div>
-                  </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                what is simantick tag ?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>simantick is</strong> The HTML semantics refers to the tags that provide meaning
+                                to an HTML page rather than just presentation. It makes HTML more comprehensible by
+                                better defining the different sections and layout of web pages
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--many compuny icons section start-->
@@ -385,14 +449,14 @@
             </div>
         </section>
     </main>
-     <!--footer section start-->
-     <footer class="mt-5">
+    <!--footer section start-->
+    <footer class="mt-5">
         <div class="d-flex justify-content-center align-items-center bg-black w-100 ">
             <div class=" mt-5 text-light p-4 text-center">
                 <h1>Mor Learn</h1>
-                <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>  
+                <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
                     Sultanate of Oman</p>
-                <p>Privacy Ploicy  |   Terms of use</p>
+                <p>Privacy Ploicy | Terms of use</p>
                 <p class="">
                     <span class="px-2">
                         <i class="fa-brands fa-facebook"></i>
@@ -416,7 +480,7 @@
     <script src="style-css/bootstrap.min.js"></script>
     <!--font awsome  js link-->
     <script src="style-css/font-awsome/all.min.js"></script>
-    
+
 </body>
 
 </html>
